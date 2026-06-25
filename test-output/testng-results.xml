@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-25T01:48:27 IST" name="Suite" finished-at="2026-06-25T01:48:43 IST" duration-ms="15433">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.loginTest()[pri:0, instance:Tests.LoginTest@44c03695]" name="loginTest" class="Tests.LoginTest"/>
+        <method signature="LoginTest.loginTest()[pri:0, instance:Tests.LoginTest@33c911a1]" name="loginTest" class="Tests.LoginTest"/>
+        <method signature="LoginTest.loginTest()[pri:0, instance:Tests.LoginTest@707194ba]" name="loginTest" class="Tests.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-06-25T01:48:27 IST" name="chrome" finished-at="2026-06-25T01:48:39 IST" duration-ms="11728">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.LoginTest@33c911a1]" started-at="2026-06-25T01:48:27 IST" name="setup" finished-at="2026-06-25T01:48:33 IST" duration-ms="5292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:Tests.LoginTest@33c911a1]" started-at="2026-06-25T01:48:33 IST" name="loginTest" finished-at="2026-06-25T01:48:38 IST" duration-ms="5592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@33c911a1]" started-at="2026-06-25T01:48:38 IST" name="teardown" finished-at="2026-06-25T01:48:39 IST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- chrome -->
+    <test started-at="2026-06-25T01:48:27 IST" name="edge" finished-at="2026-06-25T01:48:41 IST" duration-ms="13164">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.LoginTest@707194ba]" started-at="2026-06-25T01:48:27 IST" name="setup" finished-at="2026-06-25T01:48:33 IST" duration-ms="5146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:Tests.LoginTest@707194ba]" started-at="2026-06-25T01:48:33 IST" name="loginTest" finished-at="2026-06-25T01:48:38 IST" duration-ms="5559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@707194ba]" started-at="2026-06-25T01:48:38 IST" name="teardown" finished-at="2026-06-25T01:48:41 IST" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- edge -->
+    <test started-at="2026-06-25T01:48:27 IST" name="firefox" finished-at="2026-06-25T01:48:43 IST" duration-ms="15433">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.LoginTest@44c03695]" started-at="2026-06-25T01:48:27 IST" name="setup" finished-at="2026-06-25T01:48:36 IST" duration-ms="8859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:Tests.LoginTest@44c03695]" started-at="2026-06-25T01:48:36 IST" name="loginTest" finished-at="2026-06-25T01:48:42 IST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@44c03695]" started-at="2026-06-25T01:48:42 IST" name="teardown" finished-at="2026-06-25T01:48:43 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
