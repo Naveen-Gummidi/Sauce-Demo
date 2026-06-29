@@ -15,6 +15,7 @@ public class Base {
 
 	@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)
+	
 	public void setup(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
